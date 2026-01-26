@@ -29,14 +29,6 @@ Most projects also run if you open their `index.html` file directly inside the p
 
 ### Option B: Run a local static server (recommended)
 
-Some browser features work more reliably when served over HTTP.
-
-- Python:
-  - `python -m http.server 5500`
-  - then open `http://localhost:5500/`
-
-- Node (if you have Node installed):
-  - `npx serve .`
 
 You can also use the VS Code “Live Server” extension.
 
@@ -44,9 +36,4 @@ You can also use the VS Code “Live Server” extension.
 
 This is a personal learning/practice repository. The code is intentionally simple and focused on understanding front-end concepts rather than production readiness, architecture, or long-term maintenance.
 
-## Future Improvements (optional)
 
-- Auto-generate the root project list from folders
-- Add a consistent layout and accessibility pass across projects
-- Add an optional build step for compiling SCSS
-- Add basic linting/formatting configuration
